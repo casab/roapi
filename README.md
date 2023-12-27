@@ -4,12 +4,6 @@
 [![Documentation](https://img.shields.io/badge/-documentation-blue)](https://roapi.github.io/docs/index.html)
 [![discord](https://dcbadge.vercel.app/api/server/t3pjfZkZkZ?compact=true&style=flat)](https://discord.gg/FchMNYTm7G)
 
-ROAPI automatically spins up read-only APIs for static datasets without
-requiring you to write a single line of code. It builds on top of [Apache
-Arrow](https://github.com/apache/arrow) and
-[Datafusion](https://github.com/apache/arrow-datafusion). The
-core of its design can be boiled down to the following:
-
 - [Query frontends](https://roapi.github.io/docs/api/query/index.html) to
   translate SQL, FlightSQL, GraphQL and REST API queries into
   Datafusion plans.
